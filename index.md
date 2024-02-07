@@ -17,6 +17,8 @@ Then we queried the EFD for data taken during those slews from the following top
 
 Using the method defined in [SITCOMTN-067](https://sitcomtn-067.lsst.io), we calculated the acceleration and jerk from the measured velocity and then found the maximum value during a slew. 
 
+In this analysis, we compare the maximum values of the performance of the TMA to the minimum value recorded during the slew of the `powerSupplyVoltage` for the `mainPowerSupply`.
+
 This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/tree/develop/notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-110_TMA_Perf_vs_Capacitor_Banks.ipynb.
 
 
