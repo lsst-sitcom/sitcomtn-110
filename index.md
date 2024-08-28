@@ -70,4 +70,6 @@ There is no evidence for that.
 
 ### Look at Azimuth acceleration vs. power supply current
 
+### Look at Azimuth acceleration vs. Total Discharged Energy
+
 ### Analysis of Energy (Discharged Energy, Voltage, and Current draw) During Slews
