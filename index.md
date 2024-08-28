@@ -2,6 +2,8 @@
 
 ```{abstract}
 This tech note presents an analysis of the the maximum velocity, acceleration and jerk on every slew with the minimum value of the capacitor banks on the TMA. This is in support of [SITCOM-1146](https://jira.lsstcorp.org/browse/SITCOM-1146).
+
+In addition, the tech note presents the analysis of the relationship between the current draw (rather than power supply voltage) and also how much power was in the banks prior to a large drop. This is in support of [SITCOM-1224](https://rubinobs.atlassian.net/browse/SITCOM-1224).
 ```
 
 ## Introduction
