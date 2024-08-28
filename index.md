@@ -67,9 +67,17 @@ That does not seemt to be the case.
 There is no evidence for that.
 
 ### Relationship of max power supply Current draw and distance of slew
+![](images/TMA_current_vs_distance.png)
 
 ### Look at Azimuth acceleration vs. power supply current
+![](images/max_TMA_current_vs_TMA_performance.png)
 
 ### Look at Azimuth acceleration vs. Total Discharged Energy
+![](images/total_discharged_energy_1.png)
+![](images/total_discarged_energy_2.png)
 
 ### Analysis of Energy (Discharged Energy, Voltage, and Current draw) During Slews
+![](images/discarged_energy_11.png)
+![](images/supplyPowerVoltage_12.png)
+![](images/supplyPowerCurrent_13.png)
+
