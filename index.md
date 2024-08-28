@@ -23,6 +23,12 @@ In this analysis, we compare the maximum values of the performance of the TMA to
 
 This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/tree/develop/notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-110_TMA_Perf_vs_Capacitor_Banks.ipynb.
 
+This technote has been extended with the analysis of the [SITCOM-1224](https://rubinobs.atlassian.net/browse/SITCOM-1224) ticket, where we have analysed how max power supply Current draw behaves with the distance, with the maximum speed, the maximum acceleration, the maximum jerk in the azimuth movement of each slew. 
+
+In addition we have analysed discaharged energy, voltage, and current consumption over the azimuth velocity, acceleration, and jerk during each slew.
+
+This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/pull/130
+
 
 ## Results
 ### Overall
