@@ -66,4 +66,8 @@ That does not seemt to be the case.
 ![](images/time_sequence.png)
 There is no evidence for that.
 
-### 
+### Relationship of max power supply Current draw and distance of slew
+
+### Look at Azimuth acceleration vs. power supply current
+
+### Analysis of Energy (Discharged Energy, Voltage, and Current draw) During Slews
