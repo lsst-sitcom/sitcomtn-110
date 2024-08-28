@@ -27,7 +27,7 @@ This technote has been extended with the analysis of the [SITCOM-1224](https://r
 
 In addition we have analysed discaharged energy, voltage, and current consumption over the azimuth velocity, acceleration, and jerk during each slew.
 
-This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/pull/130
+This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/pull/130. Here, we show the results of  March 01, 2024.
 
 
 ## Results
@@ -66,3 +66,4 @@ That does not seemt to be the case.
 ![](images/time_sequence.png)
 There is no evidence for that.
 
+### 
