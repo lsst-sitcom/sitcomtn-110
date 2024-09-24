@@ -67,7 +67,9 @@ That does not seemt to be the case.
 There is no evidence for that.
 
 ### Relationship of max power supply Current draw and distance of slew
+We will investigate whether there is any relationship between the maximum power supply current draw and the distance of slew.  
 ![](images/TMA_current_vs_distance.png)
+We analyze both elevation and azimuth. As shown in the graphs, there does not appear to be a clear correlation. In both cases, the maximum current draw never exceeds 45 A.
 
 ### Look at Azimuth acceleration vs. power supply current
 ![](images/max_TMA_current_vs_TMA_performance.png)
