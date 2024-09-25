@@ -17,7 +17,7 @@ Then we queried the EFD for data taken during those slews from the following top
 * `lsst.sal.MTMount.elevation`
 * `lsst.sal.MTMount.azimuth` 
 
-Using the method defined in [SITCOMTN-067](https://sitcomtn-067.lsst.io), we calculated the acceleration and jerk from the measured velocity and then found the maximum value during a slew. In SITCOM-1224, we analyzed the nights from March 1, 2024, to March 5, 2024. In this report, we included the results from the night of 2024-03-01, as no significant differences were detected across any of the analyzed nights.
+Using the method defined in [SITCOMTN-067](https://sitcomtn-067.lsst.io), we calculated the acceleration and jerk from the measured velocity and then found the maximum value during a slew. 
 
 In this analysis, we compare the maximum values of the performance of the TMA to the minimum value recorded during the slew of the `powerSupplyVoltage` for the `mainPowerSupply`.
 
@@ -25,7 +25,7 @@ This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/tre
 
 This technote has been extended with the analysis of the [SITCOM-1224](https://rubinobs.atlassian.net/browse/SITCOM-1224) ticket, where we have analysed how max power supply Current draw behaves with the distance, with the maximum speed, the maximum acceleration, the maximum jerk in the azimuth movement of each slew. 
 
-In addition we have analysed discaharged energy, voltage, and current consumption over the azimuth velocity, acceleration, and jerk during each slew.
+In addition we have analysed discaharged energy, voltage, and current consumption over the azimuth velocity, acceleration, and jerk during each slew. In SITCOM-1224, we analyzed the nights from March 1, 2024, to March 5, 2024. In this report, we included the results from the night of 2024-03-01, as no significant differences were detected across any of the analyzed nights.
 
 This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/pull/130. Here, we show the results of  March 01, 2024.
 
