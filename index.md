@@ -67,7 +67,8 @@ That does not seemt to be the case.
 There is no evidence for that.
 
 ### Relationship of max power supply Current draw and distance of slew
-We will investigate whether there is any relationship between the maximum power supply current draw and the distance of slew.  
+From here, we present the analysis of the night of March 1, 2024. We will investigate whether there is any relationship between the maximum power supply current draw and the distance of slew. 
+
 ![](images/TMA_current_vs_distance.png)
 
 We analyze both elevation and azimuth. As shown in the graphs, there does not appear to be a clear correlation. In both cases, the maximum current draw never exceeds 45 A.
@@ -79,10 +80,16 @@ The maximum power supply current appears to begin increasing when the TMA reache
 
 
 ### Look at Azimuth acceleration vs. Total Discharged Energy
+The total discharged energy increases with speed and acceleration. We can observe some cases of low speed and low acceleration where there is a higher energy discharge. These specific cases should be further studied, as well as a single instance where the discharged energy exceeds 2.5J.
+
 ![](images/total_discharged_energy_1.png)
 ![](images/total_discarged_energy_2.png)
 
 ### Analysis of Energy (Discharged Energy, Voltage, and Current draw) During Slews
+In the following plots, we have shown how a single slew (in this case, slew 4) behaves, and we have compared how the discharged energy (in red), the supply power voltage (in green), and the supply power current (in yellow) vary with velocity, acceleration, and jerk (in blue). 
+
+As we can see in the upper plots, energy is discharged as velocity increases and continues to discharge even when velocity remains stable. When comparing with acceleration, we can observe that the greatest energy discharge occurs while the telescope is accelerating. When the telescope decelerates, it regains a small amount of energy. Regarding the supply voltage, we can see a clear relationship with acceleration: it decreases as the telescope accelerates and returns to zero when the rotation is no longer accelerating. The same behavior can be observed with the supply power current.
+
 ![](images/discarged_energy_11.png)
 ![](images/supplyPowerVoltage_12.png)
 ![](images/supplyPowerCurrent_13.png)
