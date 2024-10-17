@@ -76,7 +76,7 @@ We analyze both elevation and azimuth. As shown in the graphs, there does not ap
 ### Look at Azimuth acceleration vs. power supply current
 ![](images/max_TMA_current_vs_TMA_performance.png)
 
-The maximum power supply current appears to begin increasing when the TMA reaches azimuth velocity close to 1.5 m/s, peaking at speeds of 4 deg/s. Regarding acceleration, the maximum power supply current starts to increase at accelerations greater than 2.5 deg/s².
+The maximum power supply current appears to begin increasing when the TMA reaches azimuth velocity close to 1.5 deg/s, peaking at speeds of 4 deg/s. Regarding acceleration, the maximum power supply current starts to increase at accelerations greater than 2.5 deg/s².
 
 
 ### Look at Azimuth acceleration vs. Total Discharged Energy
