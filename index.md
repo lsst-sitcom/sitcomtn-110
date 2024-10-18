@@ -21,7 +21,8 @@ Using the method defined in [SITCOMTN-067](https://sitcomtn-067.lsst.io), we cal
 
 In this analysis, we compare the maximum values of the performance of the TMA to the minimum value recorded during the slew of the `powerSupplyVoltage` for the `mainPowerSupply`.
 
-This analysis can be found at https://github.com/lsst-sitcom/notebooks_vandv/tree/develop/notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-110_TMA_Perf_vs_Capacitor_Banks.ipynb.
+This analysis can be found at [https://github.com/lsst-sitcom/notebooks_vandv/tree/develop/notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-110_TMA_Perf_vs_Capacitor_Banks.ipynb.
+](https://github.com/lsst-sitcom/notebooks_vandv/blob/tickets/SITCOM-1146/notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-110_TMA_Perf_vs_Capacitor_Banks.ipynb)
 
 This technote has been extended with the analysis of the [SITCOM-1224](https://rubinobs.atlassian.net/browse/SITCOM-1224) ticket, where we have analysed how max power supply Current draw behaves with the distance, with the maximum speed, the maximum acceleration, the maximum jerk in the azimuth movement of each slew. 
 
@@ -50,13 +51,13 @@ Then, we can look at the relationship between the power drops and the performanc
 ### Power drops less than 575 V
 Now, we want to look at those slews in which the power did drop below 575V to understand under which circumstances this occurred.
 
-It's clear that it occurs when the Azimuth velocity is higher than 6.5 m/s with accelerations higher than 7.5 m/s^2. However, it doesn't consistently occur every time this velocity/acceleration is reached.
+It's clear that it occurs when the Azimuth velocity is higher than 6.5 deg/s with accelerations higher than 7.5 deg/s^2. However, it doesn't consistently occur every time this velocity/acceleration is reached.
 ![](images/min_power_less_575_hist.png)
 
 Several possibilities were explored:
 1. Is it a combination of the Azimuth and Elevation speed? 
 ![](images/el_v_az_vel.png)
-It does seemt to be more likely when the Elevation velocity is above 3 m/s, but still not a certainty.
+It does seemt to be more likely when the Elevation velocity is above 3 deg/s, but still not a certainty.
 
 2. Is it correlated to the duration of the slew?
 ![](images/duration_hist.png)
